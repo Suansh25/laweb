@@ -8,8 +8,11 @@
 
 body {
     background-image: url("3395347_58379.svg");
+    background-position: center center;
+    background-size: max(1080px, 100vw);
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+    position: relative;
     background-color: rgba(8, 8, 8, 0.905);
 }
 
@@ -42,7 +45,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: var(--sec);
+    background-color: var(--pri);
 }
 
 .active {
@@ -91,6 +94,14 @@ p{
   
 }
 .line{
-    height: 7px;
+    
+    
     background-color:var(--sec);
+}
+.line p{
+    padding-top: 15vh;
+    
+}
+.p2{
+    
 }
