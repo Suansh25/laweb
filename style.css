@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+ :root {
+    --pri: rgb(203, 95, 95);
+    --sec: #2b2d2d;
+    --ter: wheat;
+}
+
+body {
+    background-image: url("3395347_58379.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(8, 8, 8, 0.905);
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2d2d;
+}
+
+/* Style for individual list items (links) */
+li {
+    float: right;
+    font-size: 30px;
+    color: var(--ter);
+    font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+li a {
+    display: block;
+    color: var(--ter);
+    text-align: center;
+    padding-left: 6vw;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    padding-right: 5vw;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: var(--sec);
+}
+
+.active {
+    background-color: #fbfcfc; 
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.log {
+    
+   float: left;
+   position: fixed;
+   padding-bottom: 5vh;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--pri);
+}
+
+
+.heading1 {
+    padding: 70px 0;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 30px;
+    color: var(--ter);
+    font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+p{
+    padding: 70px 0;
+    padding-top: 2vh;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: var(--ter);
+    font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.line{
+    height: 7px;
+    background-color:var(--sec);
+}
