@@ -4,10 +4,14 @@
     --pri: rgb(203, 95, 95);
     --sec: #2b2d2d;
     --ter: wheat;
+    --sep:black;
+}
+body{
+    background-color: var(--sec);
 }
 
-body {
-    background-image: url("3395347_58379.svg");
+.main{
+    background-image: url("pics/3395347_58379.svg");
     background-position: center center;
     background-size: max(1080px, 100vw);
     background-repeat: no-repeat;
@@ -81,7 +85,7 @@ a {
   font-optical-sizing: auto;
   
 }
-p{
+.des{
     padding: 70px 0;
     padding-top: 2vh;
     padding-left: 25%;
@@ -94,14 +98,29 @@ p{
   
 }
 .line{
-    
-    
-    background-color:var(--sec);
+    height: 100%;
+    height: 5px;
+    background-color:var(--sep);
 }
-.line p{
-    padding-top: 15vh;
-    
+.p1{
+    text-align: right;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    background-color: black;
+    font-size: 20px;
+    color: var(--ter);
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-optical-sizing: auto;
 }
-.p2{
-    
+.map{
+    float: left;
+}
+.h2{
+    padding: 50px 0;
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 30px;
+    color: var(--ter);
+    font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
 }
