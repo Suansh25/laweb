@@ -6,7 +6,13 @@
     --ter: wheat;
     --sep:black;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
+    min-height: 100vh;
+    min-width: 100px;
+    /* overflow: hidden; */
     background-color: var(--sec);
 }
 
@@ -17,7 +23,7 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
-    background-color: rgba(8, 8, 8, 0.905);
+    background-color: rgba(0, 0, 0, 0.905);
 }
 
 
@@ -62,10 +68,13 @@ ul {
 }
 
 .log {
-    
+color: var(--ter);
    float: left;
    position: fixed;
-   padding-bottom: 5vh;
+   padding-top: 1vh;
+   font-size: 2.5rem;
+   padding-left: 1vw;
+   font-weight: 700px;
 }
 
 a {
@@ -79,7 +88,7 @@ a {
     padding: 70px 0;
     padding-top: 15vh;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     color: var(--ter);
     font-family: "Baloo Bhai 2", sans-serif;
   font-optical-sizing: auto;
@@ -91,7 +100,7 @@ a {
     padding-left: 25%;
     padding-right: 25%;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     color: var(--ter);
     font-family: "Baloo Bhai 2", sans-serif;
   font-optical-sizing: auto;
@@ -103,10 +112,11 @@ a {
     background-color:var(--sep);
 }
 .p1{
-    text-align: right;
+    
     padding-right: 2vw;
     padding-bottom: 2vh;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
     font-size: 20px;
     color: var(--ter);
     font-family: "Baloo Bhai 2", sans-serif;
@@ -114,6 +124,10 @@ a {
 }
 .map{
     float: left;
+    padding-top: 8vh;
+}
+.ex{
+    padding-left: 50vw;
 }
 .h2{
     padding: 50px 0;
