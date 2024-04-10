@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+ :root {
+    --pri: rgb(203, 95, 95);
+    --sec: #2b2d2d;
+    --ter: wheat;
+    --sep:black;
+}
+body{
+    background-color: #000000;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2d2d;
+}
+
+/* Style for individual list items (links) */
+li {
+    float: right;
+    font-size: 18px;
+    color: var(--ter);
+    font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+li a {
+    display: block;
+    color: var(--ter);
+    text-align: center;
+    padding-left: 6vw;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    padding-right: 5vw;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: var(--pri);
+    border-radius: 15px;
+}
+.active {
+    background-color: #fbfcfc; 
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.log {
+color: var(--ter);
+   float: left;
+   position: fixed;
+   padding-top: 1vh;
+   font-size: 2.5rem;
+   padding-left: 1vw;
+   font-weight: 700px;
+}
+
+
+
+
+
+
+
+
+p{
+    float: right;
+}
