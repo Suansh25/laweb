@@ -65,6 +65,7 @@ li a:hover {
 ul {
     position: fixed;
     top: 0;
+    z-index: 999;
     width: 100%;
 }
 
@@ -72,6 +73,7 @@ ul {
 color: var(--ter);
    float: left;
    position: fixed;
+   z-index: 999;
    padding-top: 1vh;
    font-size: 2.5rem;
    padding-left: 1vw;
@@ -168,6 +170,7 @@ a {
     font-size: 20px;
     font-family:"Baloo Bhai 2", sans-serif ;
     color: var(--ter);
+    padding-top: 30em;
     padding-right: 5vw;
     background-color: black;
 }
@@ -226,29 +229,7 @@ a {
     cursor: pointer;
 }
 
-footer {
-    color: var(--pri);
-    font-family: "Baloo Bhai 2", sans-serif;
-    max-width: 60vw;
-    margin: auto;
-    padding: 60px;
-}
-footer:hover{
-    color: white;
-}
 
-
-footer .questions {
-    padding: 34px 0;
-}
-
-
-.footer {
-    font-family: "Baloo Bhai 2", sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-}
 .des2{
     float: left;
     text-align: left;
@@ -265,20 +246,176 @@ footer .questions {
     padding-bottom: 5vh;
 
 }
-.footer-item a{
-    padding-top: 1vh;
-    color: var(--pri);
-}
+
 .search{
     float: right;
     align-items: right;
     justify-content: end;
 }
 .des3{
-    position: inherit;
+    position:absolute;
+    padding-left: 22%;;
+    height:27em;
     
     
     
-    background-color: antiquewhite;
     
+    
+}
+.de3 h1{
+    color: var(--ter);
+}
+.des4{
+    float: right;   
+    text-align: right; 
+    font-size: 20px;
+    font-family:"Baloo Bhai 2", sans-serif ;
+    color: var(--ter);
+    padding-right: 5vw;
+    background-color: black;
+    padding-bottom: 8em;
+}
+.des4 img{
+    float: left;
+    margin-left: 25px;
+    padding-left: 4vw;
+    
+}
+.des4 {
+    float: right;
+    
+}
+.des4 p{
+    padding-left: 45%;
+    padding-right: ;
+}
+.des4 h1{
+    padding-right: 5vw;
+}
+.des4 h2{
+    padding-right: 11vw;
+}
+
+
+.footer{
+    padding-top: 30vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+/* body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+} */
+
+
+  
+  .contain{
+    max-width: 1170px;
+    margin: auto;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+  }
+  
+  .footer {
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    background-color: #000000;
+    padding: 70px 0;
+  }
+  
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  
+  @media (max-width: 574px) {
+    .footer-col {
+      width: 100%;
+    }
+  }
+.footer h2{
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 10em;
+  padding-right: 6em;
+padding-top: 2em;
 }
