@@ -1,1 +1,1 @@
-This project displays the rich local vernacular heritage of Indian state.
+This project displays the rich local vernacular heritage of Indian states.
