@@ -166,7 +166,13 @@ a {
     color: var(--ter);
     font-size: 25px;
 }
-
+.slide-container{
+    max-width: 100%;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;;
+    
+}
 
 
 
