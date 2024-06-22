@@ -74,7 +74,7 @@ body{
     left: 100px;
     width: 300px;
     text-align: left;
-    color:var(--ter);
+    color:var(--sec);
     transform: translate(0, -50%);
     font-family: system-ui;
     display: none;
@@ -98,6 +98,7 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
     opacity: 0;
+    color: var(--sec);
     animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
 
