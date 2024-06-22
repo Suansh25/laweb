@@ -73,13 +73,21 @@ ul {
 color: var(--ter);
    float: left;
    position: fixed;
-   z-index: 999;
+   
    padding-top: 1vh;
-   font-size: 2.5rem;
+   
    padding-left: 1vw;
    font-weight: 700px;
 }
-
+.log img{
+  height: 66px;
+  width:66px;
+}
+.log1{
+  height: 66px;
+  width:66px;
+  padding-left: 75em;
+}
 a {
     font-size: 20px;
     text-decoration: none;
@@ -139,6 +147,9 @@ a {
         border-radius: 15px;
         
     }
+  }
+  .des1 img{
+    width: 400px;
   }
 .desc{
     padding: 70px 0;
@@ -245,12 +256,17 @@ a {
 }
 .des2 img{
     float: right;
+    height: 350px;
+    width: 400px;
     margin-right: 25px;
     padding-right: 4vw;
-    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-bottom: 10vh;
 
 }
-
+.des2 h2{
+  width: 800px;
+}
 .search{
     float: right;
     align-items: right;
