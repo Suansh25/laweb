@@ -25,7 +25,12 @@ body{
     position: relative;
    
 }
-
+.name li{
+  padding-right: 25vw;
+  padding-top: 15px;
+  font-weight:200px;
+  font-size: 30px;
+}
 
 nav ul {
     list-style-type: none;
@@ -323,7 +328,8 @@ a {
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
 }
 /* body {
   line-height: 1.5;
@@ -345,11 +351,14 @@ a {
   
   .footer-col ul {
     list-style: none;
+    font-size: 30px;
   }
-  
+  .footer-col h2{
+    color: white;
+  }
   .footer {
     line-height: 1.5;
-    font-family: "Poppins", sans-serif;
+    font-size: 30px;
     background-color: #000000;
     padding: 70px 0;
   }
@@ -357,15 +366,17 @@ a {
   .footer-col {
     width: 25%;
     padding: 0 15px;
+    font-size: 30px;
   }
   
   .footer-col h4 {
-    font-size: 18px;
+    font-size: 40px;
     color: #ffffff;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;
+    
   }
   
   .footer-col h4::before {
@@ -377,14 +388,16 @@ a {
     height: 2px;
     box-sizing: border-box;
     width: 50px;
+    font-size: 30px;
   }
   
   .footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
+    font-size: 30px;
   }
   
   .footer-col ul li a {
-    font-size: 16px;
+    font-size: 30px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
@@ -397,6 +410,7 @@ a {
   .footer-col ul li a:hover {
     color: #ffffff;
     padding-left: 8px;
+    font-size: 30px;
   }
   
   .footer-col .social-links a {
@@ -410,32 +424,77 @@ a {
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
+    font-size: 30px;
   }
   
   .footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
+    font-size: 30px;
   }
   
   
-  @media (max-width: 767px) {
-    .footer-col {
-      width: 50%;
-      margin-bottom: 30px;
-    }
-  }
-  
-  
-  @media (max-width: 574px) {
-    .footer-col {
-      width: 100%;
-    }
-  }
+ 
 .footer h2{
   font-family: "Baloo Bhai 2", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   padding-left: 10em;
   padding-right: 6em;
 padding-top: 2em;
+}
+
+
+
+
+
+.dropdown{
+  display: relative;
+  z-index: -9;
+  background-color: var(--sec);
+  font-size: 30px;
+    color: var(--ter);
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+.dropdown button{
+  font-family: "Baloo Bhai 2", sans-serif;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  color: var(--ter);
+  background-color: var(--sec);
+  text-align: center;
+  padding-left: 6vw;
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+  padding-right: 5vw;
+  text-decoration: none;
+}
+.dropdown a{
+  display: block;
+  background-color: var(--sec);
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown .content{
+  display: none;
+  position: relative;
+  /* background-color: hsl(0, 0%, 95%); */
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .content{
+  display: block;
+}
+/* .dropdown:hover button{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 90%);
+} */
+.feed{
+  color: white;
+  z-index: -1;
 }

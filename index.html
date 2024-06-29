@@ -14,16 +14,27 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <body>
-    <div class="main">
+    <div class="main" id="home">
+        <div class="nav">
         <nav>
             <ul>
                 <div class="log"><img src="pics\logo.jpg.png" alt="logo image"></div>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="india.html">India</a></li>
-                <li><a href="scrap.html">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="tel.html">Telangana</a></li>
+                <li><a href="#">Maharashtra</a></li>
+                <div class="name"><li>Local Vernacular Web</li></div>
+                <!-- <li><a href=""><div class="dropdown">
+                    <button>About us</button>
+                    <div class="content">
+                        <a href="">Telangana</a>
+                        <a href="">Maharashtra</a>
+                        <a href="">Banana</a>
+                    </div>
+                </div></a></li> -->
             </ul>
-
+            
         </nav>
+    </div>
         <div class="heading1">
             <h1>
                 Local Vernacular Web
@@ -32,7 +43,7 @@
         <div class="desc">
             <p>A Website to explore local Indian languages.
             </p>
-            <a href=des1>
+            <a href="#india1">
                 <div class="exp">&nbsp;Let's explore &nbsp;</div>
             </a>
         </div>
@@ -40,13 +51,14 @@
 
 
 
-    <div class="des1">
-        <h1>Many Languages,One voice: India</h2>
-        </h1>
+    <div class="des1" id="india1" >
+        
+        <h1 >Many Languages,One voice: India</h1>
+        
 
         <img src="pics\quickr_vernacular_main2.jpg" alt="About image">
 
-
+        
         <p>India is a land of incredible linguistic diversity, with over 1,600 spoken dialects and more than 21
             officially recognized languages. These languages fall into four major families: Indo-Aryan, Dravidian,
             Austroasiatic, and Tibeto-Burman. The Indo-Aryan family includes languages like Hindi, Bengali, Marathi, and
@@ -58,7 +70,7 @@
             with each language contributing to the preservation and promotion of regional traditions and heritage.</p>
     </div>
 
-    <div class="des2">
+    <div class="des2" id="aboutus">
         <h1>About Us.<h2>Uncover the secrets of India’s local languages and dialects on our website.</h2>
         </h1>
 
@@ -84,9 +96,9 @@
             cultural identity.
         </p>
     </div>
-    <div class="des4">
+    <div class="des4" id="use">
         <h1>How to use our website.</h1>
-        Please follow this guide to efficiently use our website.
+        <h1>Please follow this guide to efficiently use our website.</h1>
         
 
         <img src="pics\Designer.png" alt="About image">
@@ -105,7 +117,7 @@
     </div>
 
 
-    <div class="des3">
+    <div class="des3" id="india2">
 
 
         <h1>Explore the vibrant and diverse Languages of our states.</h1>
@@ -129,37 +141,17 @@
                     <div class="content">
                         <div class="name">Maharashtra</div>
                         <div class="des">Maharashtra: The Heartland of the Maratha Empire and "छत्रपती शिवाजी महाराज" Legacy.</div>
-                        <button>See More</button>
+                        <a href="mh.html"><button>See More</button></a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(pics/indiapic.jpg);">
                     <div class="content">
                         <div class="name">India</div>
                         <div class="des">India: A Timeless Land of Diversity, Innovation, and Spirituality.</div>
-                        <button>See More</button>
+                        <a href="index.html"><button>See More</button></a>
                     </div>
                 </div>
-                <!-- <div class="item" style="background-image: url(https://i.ibb.co/Bq4Q0M8/img4.jpg);">
-                    <div class="content">
-                        <div class="name">Australia</div>
-                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                        <button>See More</button>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(https://i.ibb.co/jTQfmTq/img5.jpg);">
-                    <div class="content">
-                        <div class="name">Netherland</div>
-                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                        <button>See More</button>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(https://i.ibb.co/RNkk6L0/img6.jpg);">
-                    <div class="content">
-                        <div class="name">Ireland</div>
-                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                        <button>See More</button>
-                    </div>
-                </div> -->
+                
 
             </div>
 
@@ -173,7 +165,7 @@
 
     <section class="faq">
         <h2>Frequently Asked Questions</h2>
-        <a href="about.html">
+        <a href="#aboutus">
             <div class="faqbox">
                 <span>What is Local Vernacular Web?</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -185,6 +177,7 @@
 
             </div>
         </a>
+        <a href="#use">
         <div class="faqbox">
             <span>How to use Local Vernacular Web?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -193,6 +186,8 @@
             </svg>
 
         </div>
+    </a>
+    <a href="#india">
         <div class="faqbox">
             <span>What can I learn On Local Vernacular Web?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -201,6 +196,8 @@
             </svg>
 
         </div>
+    </a>
+    <a href="#fter">
         <div class="faqbox">
             <span>How can i give feedback?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -209,60 +206,52 @@
             </svg>
 
         </div>
+    </a>
     </section>
 
 
 
-    <footer class="footer">
-        <div class="contain">
-            <div class="row">
-
-                <div class="footer-col">
-                    <h4>About us</h4>
-                    <a href="#">
-                        <p>Home</p>
-                    </a>
-                    <a href="#">
-                        <p>About</p>
-                    </a>
-                    <a href="#">
-                        <p>India</p>
-                    </a>
-
-                </div>
-                <div class="footer-col">
-                    <h4>Explore</h4>
-                    <a href="#">
-                        <p>Telangana</p>
-                    </a>
-                    <a href="#">
-                        <p>Maharashtra</p>
-                    </a>
-                    <a href="#">
-                        <p>Feedback</p>
-                    </a>
-
-                </div>
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#">Lorem ipsum dolor sit amet.</a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-
-            </div>
-            
-        </div>
-        <div class="log1"><img src="pics\logo.jpg.png" alt="logo image"></div>
-        <h2 >Made By Kurakula Suansh and team</h2>
-        
-    </footer>
+    
 
 
 </body>
+<footer class="footer" id="fter">
+    <div class="contain">
+        <div class="row">
 
+            <div class="footer-col">
+                <h4>About us</h4>
+                <a href="#home">
+                    <p>Home</p>
+                </a>
+                <a href="#aboutus">
+                    <p>about</p>
+                </a>
+                <a href="#india1">
+                    <p>India</p>
+                </a>
+
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <a href="tel.html">
+                    Telangana
+                </a>
+                <a href="#">
+                    <p>Maharashtra</p>
+                </a>
+                <a href="#">
+                    <p>Feedback</p>
+                </a>
+
+            </div>
+            <div class="footer-col">
+                <h4>for Feedback</h4>
+                <h3>localvernacularweb@gmail.com</h3>
+            </div>
+        </div>
+    </div>
+    <h3>Made By Suansh and team</h3>
+</footer>
 
 </html>
