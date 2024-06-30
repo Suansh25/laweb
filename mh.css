@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+ :root {
+    --pri: rgb(203, 95, 95);
+    --sec: #2b2d2d;
+    --ter: wheat;
+    --sep:black;
+}*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    min-width: 100px;
+    /* overflow: hidden; */
+    background-color: #232E41;
+}
+.name li{
+  padding-right: 25vw;
+  padding-top: 15px;
+  font-weight:200px;
+}
+.main nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2d2d;
+}
+
+/* Style for individual list items (links) */
+.main li {
+    float: right;
+    font-size: 30px;
+    color: var(--ter);
+    
+  font-optical-sizing: auto;
+}
+
+.main li a {
+    display: block;
+    color: var(--ter);
+    text-align: center;
+    padding-left: 6vw;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    padding-right: 5vw;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: var(--pri);
+    border-radius: 15px;
+}
+
+.active {
+    background-color: #fbfcfc; 
+}
+ul {
+     position: fixed; /*click here to change navbar to fixed position*/
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.log {
+color: var(--ter);
+   float: left;
+   /* position: fixed; click here to change navbar to fixed position*/
+   
+   padding-top: 1vh;
+   
+   padding-left: 1vw;
+   font-weight: 700px;
+}
+.log img{
+  height: 66px;
+  width:66px;
+}
+.img1{
+ 
+  padding-left: 2vw;
+  border-radius: 10px;
+  padding-right: 1vw;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--pri);
+    color: white;
+}
+.h1{
+    color: var(--ter);
+    padding-top: 90px;
+    padding-left:10vw;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
+
+}
+.des2{
+    float: left;
+    text-align: left;
+    padding-bottom: 100px;
+    font-size: 20px;
+    font-family: "Baloo Bhai 2",sans-serif;
+    color:var(--ter);
+    padding-left: 5vw;
+}
+.shloka{
+  position: relative;
+  padding-top: 2vh;
+  padding-bottom: 15vh;
+  padding-left:15em ;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+    font-family: "Baloo Bhai 2",sans-serif;
+    color:var(--ter);
+}
+.des2 img{
+    float: right;
+    margin-right: 25px;
+    padding-right: 4vw;
+    padding-left: 5em;
+    padding-bottom: 5em;
+
+}
+.sep{
+    
+        height: 7px;
+        background-color: rgb(0, 0, 0);
+        
+    
+}
+
+/* body{
+    background-color: blanchedalmond;
+} */
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 10px;
+
+}
+.card{
+    width: 325px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+    overflow: hidden;
+    transition: transform 0.6s ease ;
+
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card-content p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+}
+.card-button{
+    display: inline-block;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.heading{
+    justify-content: center;
+    text-align: center;
+    color: var(--ter);
+    font-size: 25px;
+}
+.slide-container{
+    max-width: 100%;
+    width: 100%;
+    
+    padding: 40px 0;;
+    
+}
+/*=============== GOOGLE FONTS ===============*/
+.footer{
+    padding-top: 30vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+/* body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+} */
+
+
+  
+  .contain{
+    max-width: 1170px;
+    margin: auto;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+  }
+  
+  .footer {
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    background-color: #000000;
+    padding: 70px 0;
+  }
+  
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #faf8f8;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  
+  @media (max-width: 574px) {
+    .footer-col {
+      width: 100%;
+    }
+  }
+.footer h3{
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 10em;
+  padding-right: 6em;
+padding-top: 2em;
+}
+
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 600px;
+  margin-right: 40px;
+   background-color: aliceblue; 
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.discount-tag {
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff7d7d;
+  right: 10px;
+  top: 10px;
+  text-transform: capitalize;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  /* background: #fff; */
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background: #ff7d7d;
+  /* color: #fff; */
+}
+
+.product-info {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+  padding: 8px;
+  font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+
+.product-brand {
+  text-transform: uppercase;
+}
+
+.product-short-description {
+  width: 100%;
+  /* height: 50px; */
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.actual-price {
+  margin-left: 20px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #232E41 0%, #232E41 100%); 
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+/* .pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+} */
+
+/* .pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+} */
+
+.collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.collection {
+  position: relative;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* color: #fff; */
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+.telh1{
+  color: var(--ter);
+  padding-left: 9vw;
+  font-size: 30px;
+  padding-bottom: 5vh;
+}
+
+.teldesc{
+
+  color: var(--ter);
+  font-size: 20px;
+  padding-left: 9vw;
+  padding-right: 50vw;
+  padding-bottom: 25vh;
+}
+.telpic{
+  position: relative;
+  float: right;
+  width: 700px;
+  height: 600px;
+  padding-right: 15vw;
+  
+}
+.teldesc2{
+
+  color: var(--ter);
+  font-size: 20px;
+  padding-left: 50vw;
+  padding-right: 7vw;
+  padding-bottom: 20vh;
+}
+.telpic2{
+  float: left;
+  padding-left: 9vw;
+  width: 700px;
+  height: 500px;
+  padding-bottom: 1vh;
+}
+.gal h2{
+  
+  padding-left: 32%;
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-size: 50px;
+  color: var(--ter);
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  height: 400px;
+  width: 300px;
+  padding: 5px;
+  padding-top: 10vh;
+  padding-left: 15px;
+ 
+}
+
+/* Clear floats after image containers */
+.row::after {
+  border-radius: 10px;
+  content: "";
+  clear: both;
+  display: table;
+}

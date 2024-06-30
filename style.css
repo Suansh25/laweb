@@ -356,11 +356,17 @@ a {
   .footer-col h2{
     color: white;
   }
+  .footer-col a p{
+    font-size: 20px;
+  }
   .footer {
     line-height: 1.5;
     font-size: 30px;
     background-color: #000000;
     padding: 70px 0;
+  }
+  .footer-col img{
+    float: right;
   }
   
   .footer-col {
