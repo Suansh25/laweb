@@ -1,5 +1,5 @@
-🌍 Local Vernacular Web
-Preserving & Showcasing Local Languages and Dialects
+<h1>🌍 Local Vernacular Web</h1>
+ <h2>Preserving & Showcasing Local Languages and Dialects</h2>
 
 ✨ About
 Local Vernacular Web is a platform dedicated to highlighting the rich linguistic heritage of different regions. By showcasing unique languages and dialects, it aims to celebrate and preserve cultural identity.
